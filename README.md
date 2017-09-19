@@ -3,9 +3,9 @@
 **Se agregan las siguientes funcionaliades a las clases que se mencionan a continuacion**
 
 
-Point   | User
-------- | -------
-Duplicar los atributos x e y del punto | Devolver el numero de caracteres que componen los atributos name + familyName.
+Point   | User | Decimal Collection 
+------- | ------- | -------
+Duplicar los atributos x,y del punto | Devolver el numero de caracteres que componen name + familyName. | Quitar el ultimo elemento
 	 	
 
 	
