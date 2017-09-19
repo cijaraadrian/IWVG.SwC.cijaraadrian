@@ -9,16 +9,13 @@ Duplicar los atributos x,y del punto | Devolver el numero de caracteres que comp
 	 	
 
 	
-	
-*Mejora para DecimalCollection:*
-
-	*Quitar el ultimo elemento
-	
-*Mejoras para Fraction :*
-
-	1 Operacion multiplicacion de fraccion  	
-	2 Operacion dividir fracciones
-	3 Obtener que fraccion es mayor
+Mejoras para Fraction |
+------- |
+1 Operacion multiplicacion de fraccion |
+------- |  	
+2 Operacion dividir fracciones |
+------- |
+3 Obtener que fraccion es mayor|
 
 ## Documentación detallada
 Mirar en la [wiki](../../wiki) del proyecto
