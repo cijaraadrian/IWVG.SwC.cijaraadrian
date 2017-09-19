@@ -11,10 +11,8 @@ Duplicar los atributos x,y del punto | Devolver el numero de caracteres que comp
 	
 Mejoras para Fraction |
 ------- |
-1 Operacion multiplicacion de fraccion |
-------- |  	
+1 Operacion multiplicacion de fraccion |	
 2 Operacion dividir fracciones |
-------- |
 3 Obtener que fraccion es mayor|
 
 ## Documentación detallada
