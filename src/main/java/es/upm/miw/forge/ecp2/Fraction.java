@@ -52,6 +52,10 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+    
+    public Fraction divide(Fraction b) {
+    		return new Fraction(numerator * b.getDenominator(), denominator * b.getNumerator());
+    }
 
     public double multiply(Fraction b) {
         return (double) (numerator * b.numerator) / (denominator * b.denominator);
