@@ -32,6 +32,11 @@ public class UserTest {
     public void testFullName() {
         assertEquals("Luis marcos Rodriguez",Obj.fullName());
     }
+    
+    @Test
+    public void testnChars() {
+        assertEquals(20, Obj.nChars());
+    }
 
     @Test
     public void testInitials() {

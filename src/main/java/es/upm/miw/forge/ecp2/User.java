@@ -34,6 +34,10 @@ public class User {
         return this.name + " " + this.familyName;
     }
 
+    public int nChars() {
+        return this.name.length() +  this.familyName.length();
+    }
+    
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
