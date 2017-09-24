@@ -37,6 +37,11 @@ public class Point {
         this.y -= origin.getY();
     }
 
+    public void duplicate() {
+        this.x = this.x *2;
+        this.y = this.y *2;
+    }
+    
     @Override
     public String toString() {
         return "Point[" + x + "," + y + "]";
