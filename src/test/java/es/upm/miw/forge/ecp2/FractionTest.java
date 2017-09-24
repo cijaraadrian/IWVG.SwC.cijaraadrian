@@ -27,6 +27,14 @@ public class FractionTest {
     }
     
     @Test
+    public void testDivide() {
+    		Fraction b = new Fraction(2, 5);
+    		Fraction result = new Fraction(50, 10);
+        assertEquals(result.getNumerator(), obj.divide(b).getNumerator());
+        assertEquals(result.getDenominator(), obj.divide(b).getDenominator());
+    }
+    
+    @Test
     public void testMultiply() {
         Fraction b = new Fraction(1,2);
         assertEquals(1, obj.multiply(b), 10e-5);
