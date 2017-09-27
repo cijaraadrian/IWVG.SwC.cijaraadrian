@@ -54,5 +54,12 @@ public class DecimalCollectionTest {
 		exception.expect(ArithmeticException.class);
 		new DecimalCollection().higher();
 	}
+	
+	@Test
+    public void testHigherRemoveLast() {
+	    this.decimalCollection.removeLastElement();
+	    assertEquals(4.0, this.decimalCollection.sum(), 10e-5);
+	    
+    }
 
 }
