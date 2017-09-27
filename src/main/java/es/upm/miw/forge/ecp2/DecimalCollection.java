@@ -44,5 +44,11 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public void removeLastElement () {
+    	this.collection.remove(this.collection.size()-1);
+    }
+   
+    
 
 }
