@@ -31,7 +31,11 @@ public class Fraction {
     private int numerator;
 
     private int denominator;
-
+    
+    static boolean getHigherFraction(Fraction a, Fraction b) {
+    	return a.getNumerator() / a.getDenominator() > b.getNumerator() / b.getDenominator(); 	
+    }
+    
     public Fraction(int numerator, int denominator) {
         this.numerator = numerator;
         this.denominator = denominator;
